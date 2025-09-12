@@ -1,13 +1,14 @@
 # MindBridge AI
 
-MindBridge AI is a mental health chatbot that uses advanced multi-agent orchestration with LangGraph and LangChain. It provides personalized, crisis-aware therapeutic support, including goal setting, progress tracking, and crisis intervention.
+MindBridge AI is a context-aware mental health chatbot built with LangGraph and LangChain. It provides supportive, goal-oriented, and crisis-aware conversations, using persistent memory to remember your session and goals.
 
 ## Features
 
-- Multi-step conversation flow with persistent memory
-- Crisis detection and intervention
+- Multi-agent workflow: routes messages to crisis, support, goal, or info agents
+- Context-aware: Remembers recent conversation and user goals
+- Persistent memory: Saves your session and goals between runs
+- Crisis detection and safety resources
 - Goal setting and progress tracking
-- Session summaries and user profile management
 - Powered by Groq API and DeepSeek model
 
 ## Setup
@@ -29,7 +30,8 @@ MindBridge AI is a mental health chatbot that uses advanced multi-agent orchestr
 ## Usage
 
 - Type your message to start a session.
-- Use commands: `goals`, `progress`, `summary`, or `exit` to interact with the assistant.
+- The bot will remember your conversation and goals.
+- Type `quit` or `exit` to end the session.
 
 ## Tech Stack
 
