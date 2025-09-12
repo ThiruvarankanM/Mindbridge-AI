@@ -1,0 +1,17 @@
+# MindBridge AI - Multi-Agent Therapeutic Intelligence System
+# Core Dependencies for LangGraph + GROQ Integration
+
+# LangChain Core & GROQ Integration
+langchain-groq>=0.1.9
+langchain-core>=0.2.0
+langchain>=0.2.0
+
+# LangGraph for Multi-Agent Orchestration
+langgraph>=0.1.0
+
+# Data Models & Type Checking
+pydantic>=2.0.0
+typing-extensions>=4.5.0
+
+# Environment & Configuration
+python-dotenv>=1.0.0
