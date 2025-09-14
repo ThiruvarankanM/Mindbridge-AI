@@ -2,6 +2,9 @@
 
 MindBridge AI is a context-aware mental health chatbot built with LangGraph and LangChain. It provides supportive, goal-oriented, and crisis-aware conversations, using persistent memory to remember your session and goals.
 
+## Demo
+Watch the demo video on YouTube: [ Mindbridge-AI ](https://youtu.be/hRZfIm2lT94)
+
 ## Features
 
 - Multi-agent workflow: routes messages to crisis, support, goal, or info agents
